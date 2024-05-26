@@ -1,0 +1,30 @@
+/* Custom CSS for the slider */
+
+.slick-dots.slick-thumb {
+    bottom: -30px; /* Adjust the position of the dots */
+  }
+  
+  .slick-dots.slick-thumb li button:before {
+    font-size: 12px; /* Adjust the size of the dots */
+    color: white; /* Change the color of the dots to orange */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1;
+    width: 30px; /* Adjust the size of the arrows */
+    height: 30px;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 30px; /* Adjust the size of the arrow icons */
+    color: white; /* Change the color of the arrows */
+  }
+  
+  .slick-prev {
+    left: -40px; /* Adjust the left arrow position */
+  }
+  
+  .slick-next {
+    right: -40px; /* Adjust the right arrow position */
+  }
+  
